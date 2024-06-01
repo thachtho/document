@@ -24,9 +24,9 @@ app.get('/', (req, res) => {
             // Kiểm tra xem đối tượng là thư mục hay tệp
             const isDirectory = fs.statSync(path.join(publicDirectoryPath, file)).isDirectory();
             if (isDirectory) {
-                fileList += `<li style="margin-bottom: 10px"><a href="/document/${file}/">${file}</a></li>`;
+                fileList += `<li style="margin-bottom: 10px"><a href="/${file}/">${file}</a></li>`;
             } else if (path.extname(file) === '.md') {
-                fileList += `<li style="margin-bottom: 10px"><a href="/document/file/${encodeURIComponent(file)}">${file}</a></li>`;
+                fileList += `<li style="margin-bottom: 10px"><a href="/file/${encodeURIComponent(file)}">${file}</a></li>`;
             }
         });
         fileList += '</ol>';
@@ -84,9 +84,9 @@ app.get('/:directoryName/', (req, res) => {
             // Kiểm tra xem đối tượng là thư mục hay tệp
             const isDirectory = fs.statSync(path.join(directoryPath, file)).isDirectory();
             if (isDirectory) {
-                fileList += `<li style="margin-bottom: 10px"><a href="/document/${directoryName}/${file}/">${file}</a></li>`;
+                fileList += `<li style="margin-bottom: 10px"><a href="/${directoryName}/${file}/">${file}</a></li>`;
             } else if (path.extname(file) === '.md') {
-                fileList += `<li style="margin-bottom: 10px"><a href="/document/file/${encodeURIComponent(directoryName + '/' + file)}">${file}</a></li>`;
+                fileList += `<li style="margin-bottom: 10px"><a href="/file/${encodeURIComponent(directoryName + '/' + file)}">${file}</a></li>`;
             }
         });
         fileList += '</ol>';
