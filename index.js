@@ -10,7 +10,7 @@ const publicDirectoryPath = path.join(__dirname, 'public');
 app.use(express.static(publicDirectoryPath));
 
 app.get('/iframe', (req, res) => {
-    res.send(`<iframe src="http://localhost:3001/" width="600" height="400" frameborder="0"></iframe>
+    res.send(`<iframe src="http://103.214.10.223:3001" width="600" height="400" frameborder="0"></iframe>
     </body>`)
 })
 
