@@ -1,0 +1,1 @@
+* Filters là các class được sử dụng để xử lý các ngoại lệ và lỗi trong ứng dụng.

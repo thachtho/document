@@ -1,0 +1,1 @@
+- Đa hình cho phép một phương thức có thể hoạt động trên các kiểu dữ liệu khác nhau hoặc cho phép các đối tượng có cùng phương thức nhưng có cách triển khai khác nhau

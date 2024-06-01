@@ -1,0 +1,1 @@
+* Là nơi lưu trữ data.

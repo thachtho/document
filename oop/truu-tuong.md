@@ -1,0 +1,1 @@
+- Lọc ra những chức năng chính mà không cần quan tâm đến chức năng nhỏ bên trong

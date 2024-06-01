@@ -1,0 +1,2 @@
+- Middleware là các hàm hoặc class trong NestJS được sử dụng để xử lý các yêu cầu HTTP trước khi chúng được chuyển đến các controllers. 
+- Middleware có thể được sử dụng để thực hiện các tác vụ như xác thực, ghi log, hoặc xử lý các trạng thái trung gian.

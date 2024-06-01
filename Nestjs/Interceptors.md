@@ -1,0 +1,1 @@
+- Interceptors là các class được sử dụng để thay đổi các yêu cầu và phản hồi trước hoặc sau khi chúng được xử lý bởi các controllers. 

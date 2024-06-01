@@ -1,0 +1,1 @@
+1. Controllers: Controllers là các class trong NestJS được sử dụng để xử lý các yêu cầu HTTP từ clients và gửi lại các phản hồi.
